@@ -3,24 +3,20 @@ SQS setup to accept messages from API Gateway and retry calls to avoid concurren
 
 ### Required Values (Fill these in during setup):
 
-| Command | Description |
+| Item | Value |
 | --- | --- |
+| aws user | <value> |
+| sqs name | <value> |
+| sqs url | <value> |
+| sqs arn | <value> |
+| sqs policy arn | <value> |
+| sqs policy name | <value> |
+| sqs role arn | <value> |
+| sqs role name | <value> |
+| aws secret key | <value> |
+|aws secret access key | <value> |
 | git status | List all new or modified files |
 | git diff | Show file differences that haven't been staged |
-
-| Item            | Value   |
-| ------------------------- |
-| aws user        | <value> |
-| sqs name        | <value> |
-| sqs url         | <value> |
-| sqs arn         | <value> |
-| sqs policy arn  | <value> |
-| sqs policy name | <value> |
-| sqs role arn    | <value> |
-| sqs role name   | <value> |
-
-aws secret key id = 
-aws secret access key = 
 
 ## SQS Queue Setup:
 1. Enter and select SQS in main AWS console
