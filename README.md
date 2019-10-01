@@ -3,14 +3,15 @@ SQS setup to accept messages from API Gateway and retry calls to avoid concurren
 
 ### Required Values (Fill these in during setup):
 
-aws user: 
-sqs name: 
-sqs url: 
-sqs arn: 
-sqs policy arn: 
-sqs policy name: 
-sqs role arn: 
-sqs role name: 
+| Item | Value |
+| aws user | |
+| sqs name | |
+| sqs url | |
+| sqs arn | |
+| sqs policy arn | |
+| sqs policy name | |
+| sqs role arn | |
+| sqs role name | |
 
 aws secret key id = 
 aws secret access key = 
