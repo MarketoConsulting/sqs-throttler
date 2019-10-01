@@ -1,7 +1,7 @@
 # sqs-throttler
 SQS setup to accept messages from API Gateway and retry calls to avoid concurrency error
 
-Required Values (Fill these in during setup):
+### Required Values (Fill these in during setup):
 
 aws user: 
 sqs name: 
@@ -15,7 +15,7 @@ sqs role name:
 aws secret key id = 
 aws secret access key = 
 
-SQS Queue Setup:
+## SQS Queue Setup:
 1. Enter and select SQS in main AWS console
 2. Create new queue in SQS console
 	A. Add Queue Name
@@ -25,7 +25,7 @@ SQS Queue Setup:
 	D. Click 'Create Queue'
 	E. You are kicked back out to the SQS console, in the bottom pane you will have an SQS Name, URL, and ARN. Write these down.
 
-Create SQS Role
+## Create SQS Role
 1. Enter and select IAM in main AWS console
 2. In left column, select 'Policies'
 3. Top left of right pane, select 'Create Policy'
@@ -46,7 +46,7 @@ Create SQS Role
 	E. You will be kicked back out to the IAM console, click back into the role you created
 		i. Attach your sqs policy by clicking 'Attach Policies' and searching for the role you created
 
-API Gateway Setup:
+## API Gateway Setup:
 1. create new API
 2. Create new Method (POST)
 	A. Integration type = AWS Service
