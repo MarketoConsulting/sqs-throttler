@@ -74,5 +74,5 @@ SQS setup to accept messages from API Gateway and retry calls to avoid concurren
   - i. Request Body Pass Through = Never
   - ii. Content-Type = application/json
     - a. click on new Mapping Template created when entering 'Content-Type value' and scroll down
-    - b. add the following template without quotes: Action=SendMessage&MessageBody=$util.urlEncode("$input.body")
+    - b. add the following template as typed: Action=SendMessage&MessageBody=$util.urlEncode("$input.body")
     - c. save
