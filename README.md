@@ -3,6 +3,11 @@ SQS setup to accept messages from API Gateway and retry calls to avoid concurren
 
 ### Required Values (Fill these in during setup):
 
+| Command | Description |
+| --- | --- |
+| git status | List all new or modified files |
+| git diff | Show file differences that haven't been staged |
+
 | Item            | Value   |
 | ------------------------- |
 | aws user        | <value> |
