@@ -18,12 +18,12 @@ aws secret access key =
 ## SQS Queue Setup:
 1. Enter and select SQS in main AWS console
 2. Create new queue in SQS console
-	A. Add Queue Name
-	B. Select 'Standard Queue'
-	C. Configure queue
-		i. This step can be left alone if you do not have specifics, it is populated with default values
-	D. Click 'Create Queue'
-	E. You are kicked back out to the SQS console, in the bottom pane you will have an SQS Name, URL, and ARN. Write these down.
+- A. Add Queue Name
+- B. Select 'Standard Queue'
+- C. Configure queue
+  - i. This step can be left alone if you do not have specifics, it is populated with default values
+- D. Click 'Create Queue'
+- E. You are kicked back out to the SQS console, in the bottom pane you will have an SQS Name, URL, and ARN. Write these down.
 
 ## Create SQS Role
 1. Enter and select IAM in main AWS console
